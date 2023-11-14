@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: 3.9.12
       - name: Set timezone
-        run: |
+        run: ubuntu20.04
           cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
       - name: install pip packages
         run: |
